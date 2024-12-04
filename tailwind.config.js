@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        border: "hsl(var(--border))",
+      },
+      borderColor: {
+        DEFAULT: "hsl(var(--border))",
       },
     },
   },
